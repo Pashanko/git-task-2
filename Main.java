@@ -12,6 +12,10 @@ class Main {
             System.out.println("this is add method for 3 params");
             return a + b + c;
         }
+        public int add(int a, int b, int c, int d){
+            System.out.println("this is add method for 4 params");
+            return a + b + c + d;
+        }
         public int sub(int a, int b){
             return a - b;
         }
